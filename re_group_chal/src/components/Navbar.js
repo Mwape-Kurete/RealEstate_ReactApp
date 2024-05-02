@@ -7,15 +7,14 @@ function BasicExample() {
   return (
     <Navbar expand="lg" className="bg-body-tertiary">
       <Container>
-        <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        {/* <Navbar.Toggle aria-controls="basic-navbar-nav" /> */}
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#link">About</Nav.Link>
-            <Nav.Link href="#link">Inquire</Nav.Link>
-            <Nav.Link href="#link">Properties</Nav.Link>
-            <Nav.Link href="#link">Sell Let Out</Nav.Link>
+            <Nav.Link className='nav-link' href="#home">Home</Nav.Link>
+            <Nav.Link className='nav-link' href="#link">About</Nav.Link>
+            <Nav.Link className='nav-link' href="#link">Inquire</Nav.Link>
+            <Nav.Link className='nav-link' href="#link">Properties</Nav.Link>
+            <Nav.Link className='nav-link' href="#link">Sell/Let Out</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
