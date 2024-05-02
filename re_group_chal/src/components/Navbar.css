@@ -1,11 +1,12 @@
 .navbar{
-    background-color: #000000;
+    background-color: #CD9C20;
     width: 40%;
     margin: auto;
     border-radius: 0px 0px 15px 15px;
 }
 
 .me-auto{
+    padding: 15px;
     display: flex;
     justify-content: center;
 }
